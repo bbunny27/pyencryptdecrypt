@@ -1,6 +1,7 @@
 <h1>Python Decryptor and Encrypter!</h1>
 <p>This is a very simple python program that I developed in-between classes to brush up on my Python Skills and also to have a fun little cybersecurity project to show off!</p>
 <a href="https://www.youtube.com/watch?v=vsLBErLWBhA&t=444s">This is the video I used for both the idea and the basis of the code.</a>
+<p>While this project both Encrypts and Decrypts Text, this could very easily be seperated into two seperate programs that encrypt and decrypt and save a the key to a .txt file. I plan on doing this eventually as a second iteration of this project.</p>
 <br>
 <h3>The Program:</h3>
 <pre>import random
