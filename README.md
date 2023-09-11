@@ -13,10 +13,6 @@ key = chars.copy()
 
 random.shuffle(key)
 
-#print(f'key: {key}')
-#print(f'chars: {chars}')
-
-
 #encryption
 plaintext = input("Enter the text to be encypted: ")
 encrypted_text = ""
@@ -35,6 +31,7 @@ for letter in encrypted_text:
     index = key.index(letter)
     dencrypted_text += chars[index]
 
+#prints the encrypted text and the decrypted text which was decrypted using the key.
 print(f"Encrypted Message: {encrypted_text}")
 print(f"Decrypted Message: {dencrypted_text}")
 </pre>
